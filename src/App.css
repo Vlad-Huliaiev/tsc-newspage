@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+.article {
+  font-family: Montserrat;
+  background: rgb(255, 255, 255);
+  font-style: normal;
+  font-weight: normal;
+  padding: 10px 15px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.article__title {
+  font-size: 26px;
+  line-height: 30px;
+  color: #000000;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.article__content {
+  display: block;
+  font-size: 16px;
+  line-height: 20px;
+  color: #575454;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.article__auth {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #000000;
+}
+.news {
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 25px 25px;
+}
+.homepage {
+  font-family: Montserrat;
+  background: rgb(213, 209, 209);
+  padding: 44px 100px 46px 100px;
+}
+.homepage__header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.homepage__search {
+  display: flex;
+  justify-content: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.loading {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+}
+.about {
+  font-size: 22px;
+  font-weight: bold;
 }
